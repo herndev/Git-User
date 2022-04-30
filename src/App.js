@@ -9,7 +9,6 @@ function App() {
   const fetchData = async () => {
     const response = await fetch(`https://api.github.com/users/${githubUser}`);
     const data = await response.json();
-    console.log(data);
     return setGithubData(data);
   };
 
