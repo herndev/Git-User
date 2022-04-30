@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .card {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+} */
+
+.mini-card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.crv-25 {
+    border-radius: 25px !important;
+    overflow: hidden !important;
+}
+
+.crv-8 {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.imr-5 {
+    margin-right: 5px !important;
+}
+
+.imr-15 {
+    margin-right: 15px !important;
+}
+
+.im-0 {
+    margin: 0 !important;
+}
+
+.display-spacebetweenb {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+
+.display-spacebetweent {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+}
+
+.display-spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-centered-spacebetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-startx {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.display-centery {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: #0f5132 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
