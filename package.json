@@ -2,7 +2,7 @@
     "name": "gituser",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://herndev.github.io",
+    "homepage": "https://herndev.github.io/Git-User/",
     "dependencies": {
         "-": "^0.0.1",
         "@testing-library/jest-dom": "^5.16.4",

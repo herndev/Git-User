@@ -1,6 +1,6 @@
 <img src="./public/img/screenshot.png" />
 
-# Git User
+# [Git User](https://herndev.github.io/Git-User/)
 
 This project was built using 
 - <b>ReactJS</b> ( Easy to build front-end framework )
