@@ -1,4 +1,4 @@
-<img src="./public/img/screenshot.png" />
+<img src="./public/img/screenshot_may1_2022.png" />
 
 # [Git User](https://herndev.github.io/Git-User/)
 
