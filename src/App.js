@@ -25,20 +25,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <header className="App-header"> */}
-      {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      {/* </header> */}
       <div className="content container my-5">
         <div className="card mini-card crv-25 mx-2">
           <div className="row">
@@ -194,31 +180,6 @@ function App() {
                     )}
                   </div>
 
-                  {/* <div className="mt-3">
-                    <div className="display-centered-spacebetween">
-                      <span className="bg-dark text-white py-2 mini-card px-3 display-centery crv-25">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="20"
-                          height="20"
-                          fill="currentColor"
-                          className="bi bi-github imr-5"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                        </svg>
-                        <a
-                          href={githubData.html_url}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-white"
-                        >
-                          Follow On Github
-                        </a>
-                      </span>
-                    </div>
-                  </div> */}
-
                   <div className="mt-4">
                     <div className="row">
                       <div className="col-md-4">
@@ -236,7 +197,7 @@ function App() {
                           <span className="my-2">Repos</span>
 
                           <span className="font-weight-bold">
-                            {githubData.followers}
+                            {githubData.public_repos}
                           </span>
                         </div>
                       </div>
@@ -282,22 +243,6 @@ function App() {
                         </div>
                       </div>
                     </div>
-                    {/* <span className="bg-white p-3 crv-8">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        fill="currentColor"
-                        className="bi bi-person-hearts"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z"
-                        />
-                      </svg>
-                      Followers
-                    </span> */}
                   </div>
                 </div>
               )}
@@ -323,13 +268,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* {githubData.map((data) => {
-          <div className="">
-            <img src={githubUser.avatar_url} height="100" width="100" />
-            <p>{githubUser.name}</p>
-          </div>
-        })} */}
       </div>
     </div>
   );
